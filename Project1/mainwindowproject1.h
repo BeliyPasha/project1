@@ -15,6 +15,9 @@ public:
     MainWindowProject1(QWidget *parent = nullptr);
     ~MainWindowProject1();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::MainWindowProject1 *ui;
 };

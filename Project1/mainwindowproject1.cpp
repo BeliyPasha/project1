@@ -13,3 +13,9 @@ MainWindowProject1::~MainWindowProject1()
     delete ui;
 }
 
+
+void MainWindowProject1::on_pushButton_clicked()
+{
+    qDebug("Project1");
+}
+
